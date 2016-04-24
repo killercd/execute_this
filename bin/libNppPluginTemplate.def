@@ -1,0 +1,6 @@
+EXPORTS
+    beNotified @1
+    getFuncsArray @2
+    getName @3
+    messageProc @4
+    setInfo @5

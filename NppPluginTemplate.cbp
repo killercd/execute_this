@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NppPluginTemplate" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="ANSI Debug Win32">
+				<Option output="ANSI Debug Win32/NppPluginTemplate_DebugA" prefix_auto="1" extension_auto="1" />
+				<Option object_output="ANSI Debug Win32" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DNPPPLUGINTEMPLATE_EXPORTS" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add directory="./DockingFeature" />
+					<Add directory="./" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./DockingFeature" />
+					<Add directory="./" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="shlwapi" />
+				</Linker>
+			</Target>
+			<Target title="ANSI Release Win32">
+				<Option output="./bin/NppPluginTemplateA" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DNPPPLUGINTEMPLATE_EXPORTS" />
+					<Add option="-W" />
+					<Add directory="./DockingFeature" />
+					<Add directory="./" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./DockingFeature" />
+					<Add directory="./" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="shlwapi" />
+				</Linker>
+			</Target>
+			<Target title="Unicode Realeas Win32">
+				<Option output="./bin/NppPluginTemplate" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Unicode Realeas Win32" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DNPPPLUGINTEMPLATE_EXPORTS" />
+					<Add option="-W" />
+					<Add directory="./DockingFeature" />
+					<Add directory="./" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./DockingFeature" />
+					<Add directory="./" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="shlwapi" />
+				</Linker>
+			</Target>
+			<Target title="Unicode Debug Win32">
+				<Option output="Unicode Debug Win32/NppPluginTemplate_Debug" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Unicode Debug Win32" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DNPPPLUGINTEMPLATE_EXPORTS" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add directory="./DockingFeature" />
+					<Add directory="./" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./DockingFeature" />
+					<Add directory="./" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="shlwapi" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="DockingFeature/resource.h" />
+		<Unit filename="Notepad_plus_msgs.h" />
+		<Unit filename="NppPluginDemo.cpp" />
+		<Unit filename="PluginDefinition.cpp" />
+		<Unit filename="PluginDefinition.h" />
+		<Unit filename="PluginInterface.h" />
+		<Unit filename="Scintilla.h" />
+		<Unit filename="Util.h" />
+		<Unit filename="menuCmdID.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

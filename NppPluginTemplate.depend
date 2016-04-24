@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1459433503 source:c:\users\arkam\downloads\nppplugintemplate\nppplugindemo.cpp
+	"PluginDefinition.h"
+
+1252445676 c:\users\arkam\downloads\nppplugintemplate\plugindefinition.h
+	"PluginInterface.h"
+
+1251969116 c:\users\arkam\downloads\nppplugintemplate\plugininterface.h
+	<windows.h>
+	"Scintilla.h"
+	"Notepad_plus_msgs.h"
+
+1251983644 c:\users\arkam\downloads\nppplugintemplate\scintilla.h
+	<basetsd.h>
+
+1251969122 c:\users\arkam\downloads\nppplugintemplate\notepad_plus_msgs.h
+
+1461503570 source:c:\users\arkam\downloads\nppplugintemplate\plugindefinition.cpp
+	"PluginDefinition.h"
+	"menuCmdID.h"
+	"Util.h"
+	<sstream>
+
+1250063294 c:\users\arkam\downloads\nppplugintemplate\menucmdid.h
+
+1461503962 c:\users\arkam\downloads\nppplugintemplate\util.h
+	<tchar.h>
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdio>
+	<fstream>
+
